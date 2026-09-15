@@ -1,6 +1,6 @@
 # Nikhitha Billa — Portfolio
 
-A responsive, accessible static portfolio based on Nikhitha's supplied résumé and LinkedIn profile. Includes professional experience, three academic projects, skills, education, and supplied portrait.
+A responsive, accessible static portfolio based on Nikhitha's supplied résumé, LinkedIn profile, and course credentials. Includes professional experience, three academic projects, skills, selected learning, education, and supplied portrait.
 
 ## GitHub Pages
 
