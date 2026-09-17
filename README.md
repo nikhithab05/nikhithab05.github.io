@@ -1,4 +1,4 @@
-# Nikhitha Billa — Portfolio
+# Nikhitha — Portfolio
 
 A responsive, accessible static portfolio based on Nikhitha's supplied résumé, LinkedIn profile, and course credentials. Includes professional experience, three academic projects, skills, selected learning, and education.
 
