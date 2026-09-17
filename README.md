@@ -1,10 +1,10 @@
 # Nikhitha Billa — Portfolio
 
-A responsive, accessible static portfolio based on Nikhitha's supplied résumé, LinkedIn profile, and course credentials. Includes professional experience, three academic projects, skills, selected learning, education, and supplied portrait.
+A responsive, accessible static portfolio based on Nikhitha's supplied résumé, LinkedIn profile, and course credentials. Includes professional experience, three academic projects, skills, selected learning, and education.
 
 ## GitHub Pages
 
-Upload `index.html`, `style.css`, `.nojekyll`, and `nikhitha-billa.jpeg` to the root of a GitHub repository. In Settings → Pages, select Deploy from a branch, then `main` and `/ (root)`.
+Upload `index.html`, `style.css`, and `.nojekyll` to the root of a GitHub repository. In Settings → Pages, select Deploy from a branch, then `main` and `/ (root)`.
 
 ## Content
 

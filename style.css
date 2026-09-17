@@ -13,7 +13,7 @@ nav{display:flex;flex-wrap:wrap;gap:24px}
 nav a{text-decoration:none;font-size:14px;font-weight:600}
 nav a:hover,.text-link:hover{color:var(--blue)}
 main{max-width:1320px;margin:auto}
-.hero{padding:76px 48px 60px;display:grid;grid-template-columns:1.35fr .8fr;gap:80px;align-items:center}
+.hero{padding:90px 48px 72px;display:block}
 .eyebrow{font-size:12px;letter-spacing:2px;font-weight:750;color:var(--blue);margin:0 0 20px}
 h1,h2,h3,p{margin-top:0}
 h1{font-size:clamp(38px,4.2vw,58px);line-height:1.12;letter-spacing:-2px;margin-bottom:26px;font-weight:750}
@@ -21,13 +21,13 @@ h1 em{font-style:normal;color:var(--blue)}
 h2{font-size:clamp(30px,3vw,40px);line-height:1.18;letter-spacing:-1.2px;margin-bottom:20px}
 h3{font-size:22px;line-height:1.35;margin-bottom:10px;letter-spacing:-.4px}
 p{margin-bottom:20px}
-.intro>p:not(.eyebrow){color:var(--muted);max-width:620px}
+.intro{max-width:900px}.intro>p:not(.eyebrow){color:var(--muted);max-width:720px}
 .lead{font-size:20px;line-height:1.6}
 .actions{display:flex;align-items:center;flex-wrap:wrap;gap:24px;margin-top:30px}
 .button{display:inline-flex;gap:22px;align-items:center;background:var(--blue);color:white;text-decoration:none;padding:13px 20px;border-radius:5px;font-weight:650;font-size:15px}
 .button:hover{background:#0b479f}
 .text-link{font-weight:650;text-decoration:none;font-size:15px}
-.hero-facts{border-top:1px solid var(--line);padding-top:24px;margin-top:36px;display:flex;gap:32px}
+.hero-facts{border-top:1px solid var(--line);padding-top:24px;margin-top:42px;display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
 .hero-facts strong,.hero-facts span{display:block;font-size:14px}
 .hero-facts span{color:var(--muted);font-size:13px}
 .portrait{margin:0;position:relative;background:var(--navy);border-radius:8px;overflow:hidden;box-shadow:18px 18px 0 #e7eff9}
@@ -101,11 +101,11 @@ nav{gap:14px}
 @media(max-width:720px){header{align-items:start;flex-direction:column;gap:14px}
 nav{gap:16px}
 nav a{font-size:13px}
-.hero{grid-template-columns:1fr;gap:36px;padding-top:36px}
+.hero{padding-top:44px;padding-bottom:48px}
 h1{font-size:42px;letter-spacing:-1.5px}
 .portrait{max-width:360px;width:100%;box-shadow:10px 10px 0 #e7eff9}
 .portrait img{height:370px}
-.hero-facts{flex-direction:row;gap:24px}
+.hero-facts{grid-template-columns:1fr;gap:16px}
 .stack-strip{justify-content:flex-start;padding:22px 24px;gap:14px 25px}
 .section-heading{display:block}
 .section-heading>p{margin-top:16px}
